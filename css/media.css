@@ -85,14 +85,14 @@
 
 	.right h2 {
     position: relative;
-    left: 48%;
+    left: 50%;
     top: -2em;
 	}
 	
 	.right p {
     position: relative;
     left: 0%;
-    width: 135%;
+    width: 144%;
     top: -2em;
     text-align: center;
 	}
@@ -185,7 +185,7 @@
 .mid_right h3 {
     display: flex;
     position: relative;
-    left: 50%;
+    left: 53%;
     top: 15rem;
     max-width: 95%;
 }
