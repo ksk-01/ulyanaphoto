@@ -120,7 +120,7 @@
 
 
 .mid_left h2 {
-    max-width: 135%;
+   display: flex;
     position: relative;
     left: 60%;
     top: 2rem;
@@ -128,21 +128,23 @@
 
 .mid_left img {
     position: relative;
-    left: 30%;
+    left: 33%;
     top: 4rem;
     
 }
 
 .mid_left h3 {
+    display: flex;
 	position: relative;
-    left: 48%;
+    left: 50%;
     top: 5rem;
 }
 
 .mid_left p {
+    display: flex;
     position: relative;
     text-align: center;
-    left: 48%;
+    left: 55%;
     top: 6rem;
     max-width: 100%;
 
@@ -151,21 +153,23 @@
 
 .mid_center img{
     position: relative;
-    left: 30%;
+    left: 33%;
     top: 10rem;
 }
 
 .mid_center h3{
+    display: flex;
  	position: relative;
-    left: 48%;
+    left: 80%;
     top: 9em;
     max-width: 100%;
 }
 
 .mid_center p{
+    display: flex;
 	position: relative;
     text-align: center;
-    left: 48%;
+    left: 53%;
     top: 12em;
     max-width: 100%;
 }
@@ -174,37 +178,39 @@
 
 .mid_right img{
     position: relative;
-    left: 30%;
+    left: 33%;
     top: 14rem;
 }
 
-.mid_right h3{
+.mid_right h3 {
+    display: flex;
     position: relative;
-    left: 48%;
+    left: 50%;
     top: 15rem;
-    text-align: center;
-    max-width: 135%;
+    max-width: 95%;
 }
 
-.mid_right p{
+.mid_right p {
+    text-align: center;
     display: flex;
-	position: relative;
-    left: 48%;
+    position: relative;
+    left: 53%;
     top: 16rem;
-    
+    width: 110%;
 }
 
 .list h2 {
     position: relative;
-    margin: 17rem 0rem 0rem 4rem;
-    left: 10%;
+    margin: 17rem 0rem 0rem 2rem;
+    left: 2%;
+    width: 134%;
 }
 
 .list li {
     position: relative;
     top: 1rem;
-    margin: 0 0 0 4rem;
-    left: 13%;
+    margin: 0 0 0 2rem;
+    left: 10%;
 }
 
 }
@@ -333,7 +339,7 @@
 
 .mid_left h2 {
     position: relative;
-    left: 65%;
+    left: 60%;
     top: 4rem;
 }
 
@@ -346,14 +352,14 @@
 
 .mid_left h3 {
     position: relative;
-    left: 50%;
+    left: 45%;
     top: 8rem;
+    display: flex;
 }
-
 .mid_left p {
     position: relative;
     text-align: center;
-    left: 50%;
+    left: 55%;
     top: 9rem;
     max-width: 100%;
 }
@@ -365,11 +371,13 @@
     top: 11rem;
 }
 
-.mid_center h3{
+.mid_center h3 {
     position: relative;
-    left: 50%;
+    left: 75%;
     top: 10em;
     max-width: 100%;
+    display: flex;
+    text-align: center;
 }
 
 .mid_center p{
@@ -388,32 +396,35 @@
     top: 15rem;
 }
 
-.mid_right h3{
+.mid_right h3 {
     position: relative;
-    left: 50%;
+    left: 53%;
     top: 16rem;
     text-align: center;
+    display: flex;
+    max-width: 200%;
 }
 
-.mid_right p{
+.mid_right p {
     display: flex;
     position: relative;
-    left: 40%;
+    left: 55%;
     top: 17rem;
-    
+    width: 100%;
 }
 
 .list h2 {
     position: relative;
-    margin: 17rem 0rem 0rem 2.7rem;
+    margin: 17rem 0rem 0rem 1rem;
     left: 10%;
+    width: 150%;
 }
 
 .list li {
     position: relative;
     top: 1rem;
-    margin: 0 0 0 2.2rem;
-    left: 13%;
+    margin: 0 0 0 2rem;
+    left: 10%;
 }
 
 }
