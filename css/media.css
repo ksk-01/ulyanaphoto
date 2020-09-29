@@ -419,3 +419,151 @@
 }
 
 
+@media (min-width: 766px) and (max-width: 991px) {
+
+    .col {  margin: 1% 0 1% 0%; }
+
+    .image img{
+        position: relative;
+        right: 1rem;
+    }
+
+    .right h2 {
+    position: relative;
+    left: 35%;
+    top: 1rem;
+    }
+
+    .right p {
+    position: relative;
+    left: 25%;
+    width: 81%;
+    top: 2rem;
+    }
+
+    .left h2{
+    position: relative;
+    left: 15%;
+    top: 1em;
+    font-size: 25px;
+    }
+
+    .left p{
+    position: relative;
+    left: 30%;
+    top: 2em;
+    max-width: 50%;
+    font-size: 20px;
+    }
+
+    .left_small p {
+    position: relative;
+    left: 22%;
+    top: 4em;
+    max-width: 68%;
+    }
+
+    .button a {
+    position: relative;
+    left: 25%;
+    top: 4rem;
+    }
+
+    .mid_left img {
+    position: relative;
+    left: 5%;
+    top: 7.25rem;
+    height: 14rem;
+    }
+
+
+    .mid_center img {
+    position: relative;
+    left: 7%;
+    top: 9rem;
+    height: 14rem;
+    }
+
+    .mid_left h3 {
+    position: relative;
+    left: 0%;
+    top: 8.25rem;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .mid_left p {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    top: 9rem;
+    max-width: 50%;
+    margin: 0 auto;
+    }
+
+    .mid_center h3 {
+    position: relative;
+    left: 0%;
+    top: 10rem;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .mid_center p {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    top: 12.3rem;
+    max-width: 50%;
+    margin: 0 auto;
+    }
+
+
+    .mid_right img {
+    position: relative;
+    left: 10%;
+    top: 9rem;
+    height: 14rem;
+    }
+
+    .mid_right h3 {
+    position: relative;
+    right: 0%;
+    top: 10rem;
+    max-width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .mid_right p {
+    position: relative;
+    text-align: center;
+    right: 0%;
+    top: 11rem;
+    width: 50%;
+    margin: 0 auto 2rem;
+    }
+
+    .language a {
+    position: relative;
+    left: 41rem;
+    top: 8em;
+    text-decoration: none;
+    color: black;
+    }
+
+    .language p {
+    position: relative;
+    left: 41rem;
+    top: 8rem;
+    }
+
+    .active_a a{
+    text-decoration: underline;
+    }
+
+}
+
+
